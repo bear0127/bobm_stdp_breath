@@ -100,7 +100,7 @@ def visualise_connectivity(S):
 #------------------------------------------------------------------------------
 
 # 读取数据集文件夹下所有子文件夹中的样本数据
-txt_folder_path = './data/txt_data_for_breath/train_val/'
+txt_folder_path = './data/train_val/'
 # 使用BSA脉冲编码求出传感器响应曲线的脉冲发放时间矩阵
 # def get_spikes_time_matrix(txt_folder_path):
 txt_file_path = findfile(txt_folder_path, '.txt')

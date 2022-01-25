@@ -60,7 +60,7 @@ def read_data(dir):
 
 
 def main():
-    train_dir = './data/txt_data_for_breath/spiking_train_val_3/'
+    train_dir = './data/spiking_train_val_1/'
     test_dir = ''
 
     # 读取数据并处理
